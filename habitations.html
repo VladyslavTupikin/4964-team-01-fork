@@ -1,23 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Habitations | Hidden Heaven</title>
-    
+
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-   
-</head>
-<body>
+  </head>
 
-    <header data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header.partial.html"></header>
+  <body>
+    <header
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="habitations.header-hero.partial.html"
+    ></header>
 
-    <main>
-        <h1 style="text-align: center; margin-top: 50px;">Habitations Page: Under Construction</h1>
+    <main class="habitations">
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="habitations.tent-listings.partial.html"
+      ></section>
     </main>
 
-    <footer data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="partials/footer.partial.html"></footer>
+    <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="partials/footer.partial.html"
+    ></footer>
 
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
