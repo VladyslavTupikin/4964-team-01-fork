@@ -8,3 +8,5 @@ https://koldovsky.github.io/4964-team-01
 - Oleksandr Sydorskyi
 - Sofiia Hrebeniuk
 - Andrii Prymak
+- Mariia Belyn
+- Olia Pazyniuk
