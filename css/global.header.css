@@ -39,11 +39,8 @@ body {
 
 }
 
-.header__logo img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
+
 
 .header {
     position: absolute;
@@ -77,12 +74,15 @@ body {
     display: none;
 }
 
-
 .header__logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
     width: 43.19px;
     height: 43.19px;
     cursor: pointer;
 }
+
 
 .header__burger {
     display: flex;
@@ -97,8 +97,43 @@ body {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: var(--white-color);
     border-radius: 2px;
+
+}
+
+.header__link {
+    font-family: var(--font-main);
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.header__slogan {
+    font-family: var(--font-main);
+    font-size: 15px;
+    color: var(--white-color);
+    font-style: italic;
+    letter-spacing: normal;
+}
+
+.header__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+
+}
+
+.header__social-icon {
+    width: 18px;
+    height: 18px;
+    fill: var(--white-color);
+    transition: transform 0.2s ease, fill 0.2s ease;
 
 }
 
@@ -132,7 +167,7 @@ body {
     .header__left {
         display: flex;
         justify-content: space-between;
-        gap: 80px;
+        gap: 50px;
         align-items: center;
 
     }
