@@ -1,15 +1,18 @@
 <div class="container header__container">
     <div class="header__wrapper">
-        <div class="header__logo">
-            <a href="index.html">
-                <img width="43" src="img/home/logo.svg" alt="Hidden Heaven Logo">
-            </a>
+        <div class="header__left">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img width="43" src="img/home/logo.svg" alt="Hidden Heaven Logo">
+                </a>
+            </div>
+
+            <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
         </div>
-
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
-
+        <div class="header__right">
         <div class="header__extra">
             <span class="header__slogan">Your escape awaits here.</span>
+            </div>
             <ul class="header__socials">
                 <li>
                     <a href="#" class="header__social-link" target="_blank" rel="noopener noreferrer">
@@ -40,5 +43,6 @@
             <span></span>
             <span></span>
         </button>
+        
     </div>
 </div>
