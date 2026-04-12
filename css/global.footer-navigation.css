@@ -12,6 +12,13 @@
       font-weight: var(--footer-text-font-weight);
       color: var(--footer-text-color);
       padding-bottom: 12px;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .footer__copyright-text {
+      text-align: left;
     }
   }
 
@@ -43,9 +50,10 @@
 
 @media (min-width: 1024px) {
   .footer__copyright-wrapper {
-    display: flex;
     flex-direction: row;
-    gap: 7%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 
     .footer__menu-wrapper {
       .footer-nav {
