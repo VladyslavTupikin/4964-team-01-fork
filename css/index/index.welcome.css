@@ -54,6 +54,7 @@
     flex-direction: column;
     text-align: center;
     padding: 30px 27px;
+  
 }
           .welcome-about__benefits-h3 {
     font-family: var(--secondary-font);
@@ -63,5 +64,12 @@
          .welcome-about__benefits-p {
     font-family: var(--font-main);
     color: #808080;
-    padding: 20px;
+    padding: 20px ;
+}
+ul {
+     list-style: none;
+}
+.welcome-about__benefits-img {
+     max-width: 100%;
+     height: auto;
 }
