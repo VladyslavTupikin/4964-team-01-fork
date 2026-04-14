@@ -28,4 +28,23 @@
   --contacts-font-family: "Inter", sans-serif;
   --contacts-font-color: rgb(255, 255, 255);
   /* End of Contacts part */
+
+  /* Habitations part */
+
+    --habitations-font-heading: "Work Sans", sans-serif;
+    --habitations-font-body: "Inter", sans-serif;
+    --habitations-background-color: white;
+    --habitations-text-primary-color: #ffffff;
+    --habitations-text-header-description-color: #dad6d2;
+    --habitations-text-title-card-color: #2d2d2d;
+    --habitations-text-title-card-description-color: #686868;
+    --habitations-text-special-offers-description: #808080;
+    --habitations-text-description-area-card: #858240;
+    --habitations-background-card-color: #7c782f;
+    --habitations-background-special-offers-color: #f9f9f7;
+    --habitations-icons-color: #ea9449;
+    --habitations-icons-text-color: #686868;
+    --habitations-font-size: 16px;
+    --habitations-divider-color: #e7e7db;
+  /*End of Habitations part*/
 }
