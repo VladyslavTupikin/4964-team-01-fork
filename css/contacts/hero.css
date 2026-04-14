@@ -1,9 +1,7 @@
 .contacts__hero {
   position: relative;
 
-  background:
-    linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)),
-    url("../../img/contacts/hero-bg.jpg");
+  background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url("../../img/contacts/hero-bg.jpg");
 
   background-size: cover;
   background-position: 50% 80%;
@@ -36,7 +34,7 @@
       font-family: var(--contacts-text-family);
       font-size: var(--contacts-text-font-size);
       font-weight: var(--contacts-text-font-weight);
-      color: var(--contacts-text-color);
+      color: var(--contacts-subtitle-color);
       text-align: left;
     }
   }
