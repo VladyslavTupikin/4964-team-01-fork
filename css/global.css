@@ -1,5 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('./variables.css');
-@import url('./global.header.css');
-@import url('./index/index.hero.css');
-@import url('./index/index.explore-canvas.css');
+/* Reset default browser settings */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*outline: 1px solid red;*/
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+/* Global content configuration
+   p.s.: Do not wrap backgrounds in it, content only.
+*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

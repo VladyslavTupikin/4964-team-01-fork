@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Habitations | Hidden Heaven</title>
 
+    <link rel="stylesheet" href="css/habiitations.css" />
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+
   </head>
   <body>
-    <header data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header.partial.html"></header>
-
+    <header class="header">
+      <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header.partial.html"></nav>
+    </header>
     <main class="habitations">
       <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="habitations.hero.partial.html"></section>
 
@@ -27,6 +30,12 @@
       ></section>
     </main>
 
-    <footer data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></footer>
+    <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.footer.partial.html"
+    ></footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
