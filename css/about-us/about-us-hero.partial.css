@@ -5,7 +5,7 @@
 
   background: 
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/about-us/about-us-hero-background.jpg);
+    url(../../img/about-us/about-us-hero-background.jpg);
     
   background-size: cover;
   background-position: center;

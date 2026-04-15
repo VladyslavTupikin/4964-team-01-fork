@@ -1,5 +1,4 @@
 /* Oleksandr Sydorskyi */
-
 .about-us {
   padding: 100px 0;
   background-color: var(--body-bg-color);
@@ -39,7 +38,7 @@
   width: 100%;
   max-width: 500px;
   height: 200px;
-  background-image: url("../img/about-us/about-us-watermark.png");
+  background-image: url("../../img/about-us/about-us-watermark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left top;
@@ -99,7 +98,7 @@
   padding-left: 35px;
   margin-bottom: 15px;
   font-family: var(--font-main);
-  color: var(--footer-title-delim-color); /* 👈 колір тут */
+  color: var(--footer-title-delim-color);
 }
 
 .about-us__list li::before {
@@ -116,7 +115,7 @@
   -webkit-mask: url("../img/about-us/star.svg") no-repeat center;
   -webkit-mask-size: contain;
 
-  mask: url("../img/about-us/star.svg") no-repeat center;
+  mask: url("../../img/about-us/star.svg") no-repeat center;
   mask-size: contain;
 }
 
