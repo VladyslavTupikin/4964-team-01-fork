@@ -39,20 +39,32 @@
 
   /* Habitations part */
 
-    --habitations-font-heading: "Work Sans", sans-serif;
-    --habitations-font-body: "Inter", sans-serif;
-    --habitations-background-color: white;
-    --habitations-text-primary-color: #ffffff;
-    --habitations-text-header-description-color: #dad6d2;
-    --habitations-text-title-card-color: #2d2d2d;
-    --habitations-text-title-card-description-color: #808080;
-    --habitations-text-special-offers-description: #808080;
-    --habitations-text-description-area-card: #858240;
-    --habitations-background-card-color: #7c782f;
-    --habitations-background-special-offers-color: #f9f9f7;
-    --habitations-icons-color: #ea9449;
-    --habitations-icons-text-color: #686868;
-    --habitations-font-size: 16px;
-    --habitations-divider-color: #e7e7db;
+  --habitations-font-heading: "Work Sans", sans-serif;
+  --habitations-font-body: "Inter", sans-serif;
+  --habitations-background-color: white;
+  --habitations-text-primary-color: #ffffff;
+  --habitations-text-header-description-color: #dad6d2;
+  --habitations-text-title-card-color: #2d2d2d;
+  --habitations-text-title-card-description-color: #808080;
+  --habitations-text-special-offers-description: #808080;
+  --habitations-text-description-area-card: #858240;
+  --habitations-background-card-color: #7c782f;
+  --habitations-background-special-offers-color: #f9f9f7;
+  --habitations-icons-color: #ea9449;
+  --habitations-icons-text-color: #686868;
+  --habitations-font-size: 16px;
+  --habitations-divider-color: #e7e7db;
   /*End of Habitations part*/
+
+  /* Services part */
+  --services-logo-color: #ea9449;
+  --services-email-text-color: #ea9449;
+  --services-font-title: "Work Sans", sans-serif;
+  --services-font-body: "Inter", sans-serif;
+  --services-text-title-color: #2d2d2d;
+  --services-text-description-color: #808080;
+  --services-background-color: white;
+  --services-button-color: rgb(124, 120, 47);
+  --services-button-text-color: rgb(255, 255, 255);
+
 }
