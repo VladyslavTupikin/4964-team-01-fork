@@ -3,3 +3,7 @@
 @import url("./global.header.css");
 @import url("./global.footer.css");
 @import url("./global.css");
+
+/* Oleksandr Sydorsryi */
+@import url("./about-us-hero.partial.css");
+@import url("./about-us.partial.css");

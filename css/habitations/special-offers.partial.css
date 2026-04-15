@@ -1,6 +1,6 @@
 .special-offers {
   position: relative;
-  background-color: #f7f7f3;
+  background-color: var(--habitations-background-color);
   background-image: url("../../img/habitations/special-offers-background.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -30,13 +30,13 @@
     .special-offers__header-icon {
       width: 3rem;
       height: 3.75rem;
-      color: var(--icons-color);
+      color: var(--habitations-icons-color);
       display: block;
       margin-bottom: 1.25rem;
     }
 
     .special-offers__title {
-      font-family: var(--font-heading);
+      font-family: var(--habitations-font-heading);
       font-size: 2.125rem;
       font-weight: 600;
       line-height: 1.1;
@@ -59,16 +59,16 @@
 
     .special-offers__subtitle {
       margin-top: 2rem;
-      font-family: var(--font-body);
-      color: var(--text-title-card-description-color);
+      font-family: var(--habitations-font-body);
+      color: var(--habitations-text-title-card-description-color);
       font-size: 1.1875rem;
       line-height: 1.5rem;
     }
 
     .special-offers__header-description {
       margin-top: 1rem;
-      font-family: var(--font-body);
-      color: var(--text-special-offers-description);
+      font-family: var(--habitations-font-body);
+      color: var(--habitations-text-special-offers-description);
       font-size: 1.0625rem;
       font-weight: 300;
       line-height: 1.5rem;
@@ -88,19 +88,19 @@
   box-sizing: border-box;
 
   .special-offers__card {
-    background-color: var(--background-color);
+    background-color: var(--habitations-background-color);
     padding: 2rem 2rem;
 
     .special-offers__card-label {
-      font-family: var(--font-body);
+      font-family: var(--habitations-font-body);
       font-size: 0.75rem;
-      color: var(--text-special-offers-description);
+      color: var(--habitations-text-special-offers-description);
       font-weight: 600;
       letter-spacing: 0.25em;
     }
 
     .special-offers__card-title {
-      font-family: var(--font-heading);
+      font-family: var(--habitations-font-heading);
       font-size: 1.375rem;
       font-weight: 500;
       margin-top: 1.5rem;
@@ -109,7 +109,7 @@
     .special-offers__card-divider {
       margin-top: 1rem;
       border: none;
-      border-top: 1px solid var(--divider-color);
+      border-top: 1px solid var(--habitations-divider-color);
     }
 
     .special-offers__card-features {
@@ -124,17 +124,17 @@
           width: 1.125rem;
           height: 1.125rem;
           min-width: 1.125rem;
-          color: var(--icons-color);
+          color: var(--habitations-icons-color);
           flex-shrink: 0;
           margin-top: 0.2rem;
         }
 
         .special-offers__feature-text {
           margin: 0;
-          font-family: var(--font-body);
+          font-family: var(--habitations-font-body);
           font-size: 1.0625rem;
           font-weight: 300;
-          color: var(--text-special-offers-description);
+          color: var(--habitations-text-special-offers-description);
           line-height: 1.5rem;
         }
       }
@@ -146,9 +146,9 @@
     padding: 1rem 2rem;
     width: fit-content;
     border: none;
-    background-color: var(--background-card-color);
-    color: var(--text-primary-color);
-    font-family: var(--font-body);
+    background-color: var(--habitations-background-card-color);
+    color: var(--habitations-text-primary-color);
+    font-family: var(--habitations-font-body);
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -263,12 +263,62 @@
   }
 }
 
-@media (min-width: 1355px) {
+@media (min-width: 1440px) {
+  .special-offers {
+    --special-offers-content-width: 76rem;
+    --special-offers-card-gap: 2.25rem;
+  }
+
   .special-offers__header {
     .special-offers__header-content {
       .special-offers__title {
+        font-size: 3rem;
         &::before {
           top: 2rem;
+        }
+      }
+
+      .special-offers__subtitle {
+        font-size: 1.3rem;
+      }
+
+      .special-offers__header-description {
+        font-size: 1.15rem;
+        margin-top: -0.5rem;
+      }
+    }
+  }
+
+  .special-offers__cards {
+    .special-offers__card {
+      .special-offers__card-label {
+        font-size: 0.75rem;
+      }
+
+      .special-offers__card-title {
+        font-size: 1.5rem;
+      }
+
+      .special-offers__card-features {
+        .special-offers__feature {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+
+          .special-offers__feature-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            flex-shrink: 0;
+            display: block;
+            transform: translateY(-1px);
+          }
+
+          .special-offers__feature-text {
+            font-size: 1.1rem;
+            font-weight: 300;
+            line-height: 1.2;
+            margin: 0;
+          }
         }
       }
     }
