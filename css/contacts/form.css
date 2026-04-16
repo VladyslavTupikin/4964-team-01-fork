@@ -161,6 +161,11 @@
             background-color: rgb(249, 249, 247);
           }
 
+          .contacts-form__textarea {
+            overflow: hidden;
+            resize: none;
+          }
+
           .contacts-form__input::placeholder,
           .contacts-form__textarea::placeholder {
             font-family: var(--contacts-text-family);
