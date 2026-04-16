@@ -1,0 +1,15 @@
+.services {
+  .services__head-container {
+    .services__title-group {
+      display: flex;
+
+      .services__title-logo {
+        color: var(--services-logo-color);
+      }
+      .services__title {
+        font-family: var(--services-font-title);
+        font-size: 34px;
+      }
+    }
+  }
+}
