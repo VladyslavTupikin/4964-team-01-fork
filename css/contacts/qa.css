@@ -7,3 +7,19 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+
+.contacts-qa__list {
+  list-style: none;
+  display: grid;
+  gap: 50px;
+  width: 100%;
+  list-style: none;
+}
+
+.contacts-qa__item {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
