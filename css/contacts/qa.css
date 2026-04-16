@@ -5,21 +5,61 @@
   background-size: cover;
   background-position: 50% 80%;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 55px;
+  padding-top: 30px;
 }
-
 
 .contacts-qa__list {
   list-style: none;
-  display: grid;
-  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
   width: 100%;
-  list-style: none;
 }
 
 .contacts-qa__item {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.contacts-qa__question {
+  font-size: 22px;
+  font-family: var(--secondary-font);
+  color: #2d2d2d;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: normal;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
+.contacts-qa__answer {
+  font-size: 17px;
+  font-family: var(--font-main);
+  color: #808080;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: normal;
+  padding: 0px 20px;
+  padding-bottom: 25px;
+}
+.contacts-qa__title-delim {
+  border: none;
+  background-color: var(--contacts-social-icon-color);
+  width: 12%;
+  height: 3px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+
+ 
 }
