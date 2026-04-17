@@ -19,13 +19,16 @@
   gap: 30px;
   width: 100%;
 }
+
 @media (min-width: 1024px) {
-.contacts-qa__list { display: grid;
-grid-template-columns: repeat(3,1fr);}
+  .contacts-qa__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .contacts-qa__item {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,7 +39,7 @@ grid-template-columns: repeat(3,1fr);}
 .contacts-qa__question {
   font-size: 22px;
   font-family: var(--secondary-font);
-  color: #2d2d2d;
+  color: var(--color-gray-900);
   font-weight: 600;
   line-height: 28px;
   letter-spacing: normal;
@@ -48,13 +51,14 @@ grid-template-columns: repeat(3,1fr);}
 .contacts-qa__answer {
   font-size: 17px;
   font-family: var(--font-main);
-  color: #808080;
+  color: var(--color-gray-500);
   font-weight: 400;
   line-height: 25px;
   letter-spacing: normal;
   padding: 0px 25px;
   padding-bottom: 25px;
 }
+
 .contacts-qa__title-delim {
   border: none;
   background-color: var(--contacts-social-icon-color);
@@ -63,7 +67,4 @@ grid-template-columns: repeat(3,1fr);}
   margin-left: 25px;
   margin-top: 15px;
   margin-bottom: 15px;
-  
-
- 
 }
