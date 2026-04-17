@@ -1,9 +1,18 @@
 :root {
+  /* Base fonts */
   --font-main: "Inter", sans-serif;
   --secondary-font: "Work Sans", sans-serif;
-  --white-color: rgb(255, 255, 255);
 
+  /* Base colors */
+  --white-color: rgb(255, 255, 255);
   --body-bg-color: rgb(255, 255, 255);
+  --color-white: #ffffff;
+  --color-gray-900: #2d2d2d;
+  --color-gray-500: #808080;
+  --color-accent: #ea9449;
+  --color-accent-dark: #7c782f;
+  --color-black-overlay-40: rgba(0, 0, 0, 0.4);
+  --color-divider: #e7e7db;
 
   /* Footer part */
   --footer-background-color: rgb(45, 45, 45);
@@ -69,4 +78,29 @@
   --services-button-color: rgb(124, 120, 47);
   --services-button-text-color: rgb(255, 255, 255);
   /* End of Services part */
+
+  /* About us part */
+/* fonts */
+--about-font-body: var(--font-main);
+--about-font-heading: var(--secondary-font);
+
+/* text */
+--about-text-primary: var(--color-gray-900);
+--about-text-secondary: var(--color-gray-500);
+
+/* accent */
+--about-accent: var(--color-accent);
+--about-accent-dark: var(--color-accent-dark);
+
+/* backgrounds */
+--about-bg: var(--color-white);
+--about-overlay: var(--color-black-overlay-40);
+
+/* UI */
+--about-divider-color: var(--color-divider);
+
+/* button */
+--about-button-bg: var(--about-accent-dark);
+--about-button-hover-bg: var(--about-accent);
+  /* End of About us part */
 }
