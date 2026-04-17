@@ -3,7 +3,8 @@
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 60px;
-  font-family: var(--font-main); 
+
+  font-family: var(--about-font-body);
 }
 
 .swiper-slide {
@@ -14,17 +15,19 @@
 }
 
 .year {
-  color: var(--habitations-text-description-area-card);
+  color: var(--about-year-color);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.1em;
 }
 
 .title {
-  font-family: var(--habitations-font-heading);
-  color: var(--services-text-title-color);
+  font-family: var(--about-font-heading);
+  color: var(--about-text-primary);
+
   font-size: 24px;
   font-weight: 600;
+
   margin: 0;
   position: relative;
   padding-bottom: 15px;
@@ -35,27 +38,29 @@
   position: absolute;
   bottom: 0;
   left: 0;
+
   width: 45px;
   height: 3px;
-  background-color: var(--services-logo-color);
+
+  background-color: var(--about-accent);
 }
 
 .description {
-  font-family: var(--font-main);
-  color: var(--services-text-description-color);
+  font-family: var(--about-font-body);
+  color: var(--about-text-secondary);
+
   line-height: 1.6;
   font-size: 16px;
 }
 
-.swiper-button-prev, 
+.swiper-button-prev,
 .swiper-button-next {
-
-  color: var(--services-button-color); 
+  color: var(--about-button-bg);
   width: 30px;
   height: 30px;
 }
 
-.swiper-button-prev::after, 
+.swiper-button-prev::after,
 .swiper-button-next::after {
   font-size: 24px;
   font-weight: bold;
