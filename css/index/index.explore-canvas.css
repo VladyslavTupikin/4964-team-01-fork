@@ -5,7 +5,7 @@
   /* outline: 1px solid red; */
 }
 .explore-canvas {
-  --back-color: #ffffff;
+  --back-color: #fdfdfd;
   --accent-color: #ea9449;
   --text-color: #2d2d2d;
   --color-secondary: #686868;
@@ -27,19 +27,24 @@
 
     .explore-canvas__info {
       display: flex;
-
       align-items: flex-end;
-      padding: 0 30px;
+      padding: 0 20px;
 
       @media (max-width: 1200px) {
         flex-direction: column;
       }
 
       .explore-canvas__info--title {
-        
-
         @media (min-width: 1200px) {
           width: 50%;
+        }
+
+        .explore-canvas__info--habitations {
+          width: 80%;
+
+          @media (max-width: 1200px) {
+            width: 100%;
+          }
         }
 
         .explore-canvas__info--tree {
@@ -49,11 +54,17 @@
         }
 
         .explore-canvas__info--explore-canvas {
-          
           text-overflow: ellipsis;
           font-size: 46px;
-          font-family: Work Sans;
+          font-family:
+            Work Sans,
+            sans-serif;
           color: var(--text-color);
+          font-weight: 600;
+
+          @media (max-width: 1200px) {
+            font-size: 40px;
+          }
         }
       }
 
@@ -79,7 +90,16 @@
           margin-top: 25px;
           margin-bottom: 25px;
         }
+
+        .explore-canvas__info--see-all {
+          font-size: 17px;
+          font-family: Inter, sans-serif;
+          color: var(--accent-color);
+          font-weight: 600;
+        }
       }
     }
+
+   
   }
 }
